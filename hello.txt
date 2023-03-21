@@ -25,3 +25,10 @@ $ git mv main.js file1.js
 $ git ls-files
 $ echo logs/ > .gitignore
 $ git rm -r --cached file1.js logs/ bin/
+
+# Working with 'git status -s' to show status concisely 
+# And play with 'git diff --staged' or only 'git diff'
+
+# Set 'git diff' display to vscode
+$ git config --global diff.tool vscode
+$ git config --global difftool.vscode.pwsh "code --wait"

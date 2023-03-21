@@ -10,3 +10,6 @@ $ git rm --cached file1.txt
 
 # or 
 $ git restore --staged file1.txt
+
+# Removing file using Terminal 'rm ..' command after staging 
+# and using git rm ... command

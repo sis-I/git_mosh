@@ -24,3 +24,4 @@ $ git mv main.js file1.js
 # Ignore file1.js from staging area (use 'git ls-files' to see files/dir in staging area)
 $ git ls-files
 $ echo logs/ > .gitignore
+$ git rm -r --cached file1.js logs/ bin/

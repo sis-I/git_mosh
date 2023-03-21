@@ -51,4 +51,4 @@ $ git pull --set-upstream origin/home_branch # setting a temporary default to
 # First switch the branch to main then Merge
 $ git checkout main
 $ git branch    # to check list of branches available
-$ git merge 
+$ git merge home_branch

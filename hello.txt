@@ -1,3 +1,5 @@
 ## This repository added to my local machine from github using below command
 # not by git clone command
-git remote add origin git@github.com:sis-I/git_mosh.git
+$ git remote add origin git@github.com:sis-I/git_mosh.git
+# commit using
+$ git commit -a -m "..."

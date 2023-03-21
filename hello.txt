@@ -18,3 +18,5 @@ $ git restore --staged file1.txt
 $ mv file1.txt main.js
 $ git status     # status: file1.txt is deleted and  main.js untracked
 $ git add main.js
+# There is 'git mv ...' command after staged, instead of Terminal 'mv' command
+$ git mv main.js file1.js

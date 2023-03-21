@@ -32,3 +32,23 @@ $ git rm -r --cached file1.js logs/ bin/
 # Set 'git diff' display to vscode
 $ git config --global diff.tool vscode
 $ git config --global difftool.vscode.pwsh "code --wait"
+
+# git Fetch and Merge, and git pull
+# I have git fetch from remote changes made from other pc
+$ git fetch origin  # fetch all information from remote
+$ git merge origin/main # change local repository with remote
+# or git pull,  a combined fetch and merge command
+$ git pull origin
+
+# Git Branching
+# I created branch name home_branch and created and commited a file 'home.txt'
+$ git branch home_branch            # Ceate a home_branch branch, 
+$ git checkout home_branch          # Switching to home_branch
+$ echo file created from home branch > home.txt  # this file is added and commited
+$ git pull --set-upstream origin/home_branch # setting a temporary default to
+                                            # pull to origin (remote url) from a branch name home_branch
+# Merge a branch 
+# First switch the branch to main then Merge
+$ git checkout main
+$ git branch    # to check list of branches available
+$ git merge 

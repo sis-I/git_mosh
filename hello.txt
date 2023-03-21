@@ -12,4 +12,9 @@ $ git rm --cached file1.txt
 $ git restore --staged file1.txt
 
 # Removing file using Terminal 'rm ..' command after staging 
-# and using git rm ... command
+# and using git rm -f <filename>... command
+
+# commiting after Terminal mv comannd to rename an existing file
+$ mv file1.txt main.js
+$ git status     # status: file1.txt is deleted and  main.js untracked
+$ git add main.js

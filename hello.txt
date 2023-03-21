@@ -3,3 +3,10 @@
 $ git remote add origin git@github.com:sis-I/git_mosh.git
 # commit using
 $ git commit -a -m "..."
+
+# To unstage stagged 'file1.txt', first stage it
+$ git add 'file1.txt'
+$ git rm --cached file1.txt
+
+# or 
+$ git restore --staged file1.txt

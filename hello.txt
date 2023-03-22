@@ -53,5 +53,9 @@ $ git checkout main
 $ git branch    # to check list of branches available
 $ git merge home_branch
 
+# Create new branch and switch to the branch
+$ git checkout -b update_readme
+
 # Remove home_branch branch 
 $ git branch -d home_branch
+

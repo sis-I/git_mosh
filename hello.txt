@@ -58,4 +58,6 @@ $ git checkout -b update_readme
 
 # Remove home_branch branch 
 $ git branch -d home_branch
+# Remove home_branch branch from remote(github)
+$ git push origin -d home_branch
 

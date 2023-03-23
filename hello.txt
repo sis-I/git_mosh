@@ -61,3 +61,6 @@ $ git branch -d home_branch
 # Remove home_branch branch from remote(github)
 $ git push origin -d home_branch
 
+# git pull a branch created in remote (i.e. github)
+# I have created a ghub_branch and edited this hello.txt and readme.md file in GitHub and fetch this change to local
+$ git pull  # fetch & merge all information from remote

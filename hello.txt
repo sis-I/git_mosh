@@ -76,3 +76,5 @@ $ git status
 $ git add hello.txt README.md # add changes in this file and readme file
 $ git status # check status of this update-readme branch
 $ git commit -m "Update hello.txt and README for GitHub branches"
+$ git push origin update-readme
+# Then go to github to merge changes in branchs to main branch

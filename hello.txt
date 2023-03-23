@@ -64,3 +64,8 @@ $ git push origin -d home_branch
 # git pull a branch created in remote (i.e. github)
 # I have created a ghub_branch and edited this hello.txt and readme.md file in GitHub and fetch this change to local
 $ git pull  # fetch & merge all information from remote
+$ git status 
+$ git branch  # shows available branch in local repo (i.e. *main)
+$ git branch -a   # to show all branches in local and remote (i.e. *main origin/main origin/ghub_branch)
+$ git checkout ghub_branch 
+$ git pull # check if all up to date
